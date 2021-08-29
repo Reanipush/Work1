@@ -1,10 +1,17 @@
-const num = 57;
+let num = 50;
 
-switch(num) {
-    case 50 : console.log('wrong');
-    break;
-    case 94 : console.log('Non in this time');
-    break;
-    default: console.log('So good');
-    break;
+
+
+do{
+    console.log(num);
+    num++;
+}
+while(num<=55);
+
+for (let i=1; i<15;i++){
+    if(i===6){
+        //break;
+        continue;
+    }
+    console.log (i);
 }
