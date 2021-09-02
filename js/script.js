@@ -1,17 +1,32 @@
-let num = 50;
+let num = 20;
 
-
-
-do{
-    console.log(num);
-    num++;
+function showFirstMessage(text) {
+    console.log(text);
+    num = 346;
 }
-while(num<=55);
 
-for (let i=1; i<15;i++){
-    if(i===6){
-        //break;
-        continue;
-    }
-    console.log (i);
+showFirstMessage("heiurhgioeuhrgu");
+console.log(num);
+
+function calc(a, b) {
+    return(a+b);
 }
+
+console.log(calc(5, 9));
+console.log(calc(453, 9));
+console.log(calc(57, 89));
+
+function ret () {
+    let num = 567;
+
+    return num;
+
+}
+
+let logger = function(){
+    console.log("hello");
+};
+
+logger();
+
+const calcul = (a, b) => a+b;
