@@ -1,32 +1,13 @@
-let num = 20;
+const str = "testis";
+console.log(str.toUpperCase());
 
-function showFirstMessage(text) {
-    console.log(text);
-    num = 346;
-}
 
-showFirstMessage("heiurhgioeuhrgu");
-console.log(num);
+const arr = [1, 2, 3, 4, 5, 22, 321];
+console.log(arr[6]);
 
-function calc(a, b) {
-    return(a+b);
-}
+let fruit = "Some fruit";
+console.log(fruit.indexOf("fruit"));
 
-console.log(calc(5, 9));
-console.log(calc(453, 9));
-console.log(calc(57, 89));
+const logg = "some fine couple of words";
+console.log(logg.slice(5,21));
 
-function ret () {
-    let num = 567;
-
-    return num;
-
-}
-
-let logger = function(){
-    console.log("hello");
-};
-
-logger();
-
-const calcul = (a, b) => a+b;
